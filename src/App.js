@@ -1,4 +1,4 @@
-import { Box, Heading, SimpleGrid, Flex } from "@chakra-ui/react";
+import { Box, Heading, SimpleGrid, Flex, Text } from "@chakra-ui/react";
 import GetUserLocation from "./Components/GetUserLocations";
 import Videonoob from "./assets/waiting.mp4";
 
@@ -41,6 +41,9 @@ const App = () => {
         <Heading as="h1" my="4rem">
           Welcome to Airportly
         </Heading>
+        <Text>
+          New Conditions to render
+        </Text>
         <GetUserLocation />
       </Box>
     </Flex>
